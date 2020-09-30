@@ -1,7 +1,7 @@
 # Audio signal analysis and Feature extraction
 Audio signals analysis and feature extraction are important for Automatic Speech Recognition(ASR) task. Audio signals are periodic signals(time-series), hence, we can use RNN models on these signals for ASR. Feature extraction deals with identifying the components that describe the linguistic content and discarding all the other stuff which carry informations like background noise, emotion etc. 
 
-In the notebook we consider a video file(.mp4) from MELD dataset. Aim is to extract features of the audio signal. The steps involved are
+In the notebook we consider a video file(dia1_utt0.mp4) from MELD dataset. Aim is to extract features of the audio signal. The steps involved are
 1. Convert video(.mp4) into audio file(.mp3)
 2. Perform Time-domain and Frequency domain analysis, to get an overview of the audio signal
 3. Extract features(Mel Frequency Cepstral Coefficients a.k.a MFCC) from the audio signal through these steps - 
